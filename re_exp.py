@@ -175,8 +175,8 @@ for m in re.finditer(pattern, s):
 print("---------------------------------------------")
 
 string = """di cho het 30
-mua nuoc 15,6
-mua do an sang 0,33
+mua nuoc 15.6
+mua do an sang 0.33
 """
 
 pattern = re.compile("([a-zA-Z\s]+)([0-9,.]+)", flags=re.MULTILINE)
